@@ -1,0 +1,19 @@
+<div class="ui fixed main inverted pointing menu">
+	<nav class="ui container">
+		<a class="item" href="/">
+			<img class="logo" src="/img/AirDCPlusPlus.png">
+		</a>
+		
+		<h2 class="ui inverted header">
+			
+		</h2>
+		<div class="item right">
+			{% for my_page in site.pages %}
+				{% if my_page.title %}
+				<a class="page-link item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+				{% endif %}
+			{% endfor %}
+			<a class="page-link item" href="https://github.com/airdcpp-web/airdcpp-webclient">Github</a>
+		</div>
+	</nav>
+</div>

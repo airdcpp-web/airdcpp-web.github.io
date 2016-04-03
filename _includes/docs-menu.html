@@ -1,0 +1,26 @@
+<div id="docs-menu" class="ui secondary vertical menu">
+	<a href="/docs/">
+		<h3>Documentation</h3>
+	</a>
+	{% assign docs = (site.docs | sort: "order" ) %}
+	{% for node in docs %}
+		{% if node.order != 0 %}
+			{% if c != node.category %}
+				{% assign c = node.category %}
+				<h4 class="ui header">
+					{{ node.category }}
+				</h4>
+			{% endif %}
+
+			{% if page.url == node.url %}
+    		<a href="{{node.url}}" class="item active">
+    			{{node.title}}
+    		</a>
+	    {% else %}
+	      <a class="item" href="{{node.url}}">
+	      	{{node.title}}
+	      </a>
+	    {% endif %}
+		{% endif %}
+	{% endfor %}
+</div>

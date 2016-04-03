@@ -1,0 +1,153 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+.masthead::before {
+  content: "";
+	background-image: url("/img/main_bg.jpg") !important;
+	background-size: cover;
+	background-position: 75% 50%;
+  display: block;
+  height: 600px;
+
+  -webkit-filter: blur(10px) brightness(90%);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  margin: 0px -20px;
+}
+
+//@media screen and (min-color-index:0) 
+//and(-webkit-min-device-pixel-ratio:0) { @media
+//{
+  // Hiding of left and right blur gradient causes strange artifacts 
+  // on Safari (but it works on Chrome and Firefox while Edge will happily ignore the margins)
+  //.masthead::before { 
+  //  margin: 0px 0px;
+  //}
+//}}
+
+.masthead {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.masthead .text {
+  position: absolute;
+  top: 325px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.masthead .text span {
+  white-space: nowrap;
+}
+
+.ui.main.container {
+	margin-top: 5px;
+  margin-bottom: 120px;
+}
+
+#main-content {
+	margin-bottom: 50px !important;
+}
+
+#main {
+  margin-top: 100px;
+}
+
+.ui.demo.segment {
+  margin-bottom: 50px !important;
+}
+
+.features .grid i {
+  flex-shrink: 0;
+	float: left;
+	margin-right: 20px;
+}
+
+.features .grid .column {
+	display: flex !important;
+}
+
+.features .grid {
+  margin-top: 0px !important;
+}
+
+.features .grid .column > .segment {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-height: 600px) {
+  .main.menu .item.right {
+    padding: 0px 10px !important;
+  }
+}
+
+body {
+  height: calc(100% - 87px) !important;
+}
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "syntax-highlighting"
+;
