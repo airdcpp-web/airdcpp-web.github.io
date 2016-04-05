@@ -20,15 +20,18 @@
   margin: 0px -20px;
 }
 
-//@media screen and (min-color-index:0) 
-//and(-webkit-min-device-pixel-ratio:0) { @media
-//{
-  // Hiding of left and right blur gradient causes strange artifacts 
-  // on Safari (but it works on Chrome and Firefox while Edge will happily ignore the margins)
-  //.masthead::before { 
-  //  margin: 0px 0px;
-  //}
-//}}
+_::-webkit-:not(:root:root), .masthead::before {
+  // Hiding of left and right blur gradient causes strange artifacts on Safari 
+  // (but it works on Chrome and Firefox while Edge will happily ignore the margins)
+  margin: 0px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.container {
+    margin-left: inherit !important;
+    margin-right: inherit !important;
+  }
+}
 
 .masthead {
   overflow: hidden;

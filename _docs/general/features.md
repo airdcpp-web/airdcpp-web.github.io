@@ -13,7 +13,7 @@ There must be a common hub server for the people to connect to. A single hub ser
 
 If you are joining an existing server, you'll simply just enter ther address of the server you've been given to.
 
-If you are going to set up a new server, it's going to require some effort as there is no inbuilt hub server in the client at the moment. Please see the page [Setting up an own hub](/docs/running-a-hub.html) for information.
+If you are going to set up a new server, it's going to require some effort as there is no inbuilt hub server in the client at the moment. Please see the page [Setting up an own hub](/docs/general/running-a-hub.html) for information.
 
 
 # Features

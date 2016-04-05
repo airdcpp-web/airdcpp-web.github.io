@@ -18,7 +18,7 @@ There is no installation package available but developers are able to compile th
 
 ### Other
 
-More installation packages are wanted for different operating systems. If you want to help with making an installation package available for your favorite operating system, please see this [this Github issue](https://github.com/airdcpp-web/airdcpp-webclient/issues/36).
+More installation packages are wanted for different operating systems. If you want to help with making an installation package available for your favorite operating system, please see this [this Github issue](https://github.com/airdcpp-web/airdcpp-webclient/issues/38).
 
 [Other systems (compiling the client)](/docs/installation/compiling.html)
 
