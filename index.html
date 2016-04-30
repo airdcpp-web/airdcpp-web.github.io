@@ -2,163 +2,213 @@
 layout: default
 ---
 
-<div class="ui vertical masthead center aligned">
-  <div class="background-image"></div>
-  <div class="ui text container">
-		<h1 class="ui large inverted header">
-      <span>
-			AirDC++ Web Client
-      </span>
-      <div class="sub header">Peer-to-peer file sharing client with web user interface</div>
-		</h1>
-  </div>
+<div class="ui fixed main inverted pointing menu">
+  <nav class="ui container">
+    <a class="item" href="/">
+      <img class="logo" src="/img/AirDCPlusPlus.png">
+    </a>
+    
+    <h2 class="ui inverted header">
+      
+    </h2>
+    <div class="item right">
+      <a class="page-link item" href="/docs/">
+        Documentation
+      </a>
+      <a class="page-link item" href="https://github.com/airdcpp-web/airdcpp-webclient">
+        Github
+      </a>
+    </div>
+  </nav>
 </div>
 
-<div class="ui main container">
-  <div class="ui center aligned text container">
-    <div class="ui basic segment">
-      <h1>Introduction</h1>
-      <p>AirDC++ Web Client is a locally installed application, which is designed for frequent sharing of large files or directories within a group of people in a local network or over internet.</p>
-      <p>The application can be installed on different types of systems, such as on file servers/NAS devices or normal computers. It's managed via a web browser with a responsive user interface.</p>
-    </div>
-    <div class="ui demo basic segment">
-      <a class="ui large blue button" href="http://webdemo.airdcpp.net/login" target="_blank">
-        <i class="external icon"></i>
-        Try demo
-      </a>
-    </div>
-  </div>
-
-  <div class="ui basic features segment">
-    <h1 class="ui center aligned header">Main features</h1>
-    <div class="ui feature equal width stackable grid">
-      <div class="aligned row">
-        <div class="column">
-          <div class="ui segment">
-            <i class="huge blue tasks icon"></i>
-            <div class="description">
-              <h3 class="ui aligned header">Share</h3>
-              <p>
-                You may freely choose the directories to share to other users. Shared directories are checked regularly by the client for changed content.
-              </p>
-            </div>
-          </div>
+<div id="main-content">
+  <div class="ui vertical masthead center aligned">
+    <div class="background-image"></div>
+    <div class="ui text container">
+      <h1 class="ui large inverted header">
+        <span>
+          AirDC++ Web Client
+        </span>
+        <div class="sub header">
+          Peer-to-peer file sharing client with web user interface
         </div>
-        <div class="column">
-          <div class="ui segment">
-            <i class="huge grey search icon"></i>
-            <div class="description">
-              <h3 class="ui aligned header">Search</h3>
-              <p>
-                Perform global searches to find content content shared by other users.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="aligned row">
-        <div class="column">
-          <div class="ui segment">
-            <i class="huge grey browser icon"></i>
-            <div class="description">
-              <h3 class="ui aligned header">Browse</h3>
-              <p>
-                Content shared by other users can be browsed on per-user basis via a simple file browser interface.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <i class="huge green download icon"></i>
-            <div class="description">
-              <h3 class="ui aligned header">Download</h3>
-              <p>
-                Files and directories can be downloaded on disk. It's also possible to view text, audio and video files directly in the web browser.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="aligned row">
-        <div class="column">
-          <div class="ui segment">
-            <i class="huge teal comments outline icon"></i>
-            <div class="description">
-              <h3 class="ui aligned header">Chat</h3>
-              <p>
-                Users are able to send public chat messages in the hub and private messages directly to other users 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui segment">
-            <i class="huge grey settings icon"></i>
-            <div class="description">
-              <h3 class="ui aligned header">Extend</h3>
-              <p>
-                A Websocket-based scripting API that can be used to automate various tasks, such as searches and downloads
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="ui center aligned basic segment">
-      <a class="ui button" href="/docs/general/features.html">
-        <i class="file text outline icon"></i>
-        Read more about the features
-      </a>
+      </h1>
     </div>
   </div>
 
-  <div class="ui center aligned text container">
-    <div class="ui basic segment">
-      <h1>Install</h1>
-      <p>Select your operating system from below for installation instructions.</p>
-      <div class="ui styled fluid accordion">
-        <div class="title">
-          <i class="dropdown icon"></i>
-          <i class="black linux icon"></i>Linux/other
+  <div class="ui main container">
+    <div class="ui center aligned text container">
+      <div class="ui basic segment">
+        <h1>
+          Introduction
+        </h1>
+        <p>
+          AirDC++ Web Client is a locally installed application, which is designed for frequent sharing of large files or directories within a group of people in a local network or over internet.
+        </p>
+        <p>
+          The application can be installed on different types of systems, such as on file servers/NAS devices or normal computers. It's managed via a web browser with a responsive user interface.
+        </p>
+      </div>
+      <div class="ui demo basic segment">
+        <a class="ui large blue button" href="http://webdemo.airdcpp.net/login" target="_blank">
+          <i class="external icon"></i>
+          Try demo
+        </a>
+      </div>
+    </div>
+
+    <div class="ui basic features segment">
+      <h1 class="ui center aligned header">
+        Main features
+      </h1>
+      <div class="ui feature equal width stackable grid">
+        <div class="aligned row">
+          <div class="column">
+            <div class="ui segment">
+              <i class="huge blue tasks icon"></i>
+              <div class="description">
+                <h3 class="ui aligned header">
+                  Share
+                </h3>
+                <p>
+                  You may freely choose the directories to share to other users. Shared directories are checked regularly by the client for changed content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui segment">
+              <i class="huge grey search icon"></i>
+              <div class="description">
+                <h3 class="ui aligned header">
+                  Search
+                </h3>
+                <p>
+                  Perform global searches to find content shared by other users.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="content ui secondary">
-          <p>
-            <a class="ui blue button" href="/docs/installation/installation.html">
-              <i class="file text outline icon"></i>
-              Installation instructions
-            </a>
-          </p>
+        <div class="aligned row">
+          <div class="column">
+            <div class="ui segment">
+              <i class="huge grey browser icon"></i>
+              <div class="description">
+                <h3 class="ui aligned header">
+                  Browse
+                </h3>
+                <p>
+                  Content shared by other users can be browsed on per-user basis via a simple file browser interface.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui segment">
+              <i class="huge green download icon"></i>
+              <div class="description">
+                <h3 class="ui aligned header">
+                  Download
+                </h3>
+                <p>
+                  Files and directories can be downloaded on disk. It's also possible to view text, audio and video files directly in the web browser.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="title">
-          <i class="dropdown icon"></i>
-          <i class="blue windows icon"></i>Windows
+        <div class="aligned row">
+          <div class="column">
+            <div class="ui segment">
+              <i class="huge teal comments outline icon"></i>
+              <div class="description">
+                <h3 class="ui aligned header">
+                  Chat
+                </h3>
+                <p>
+                  Users are able to send public chat messages in the hub and private messages directly to other users.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="ui segment">
+              <i class="huge grey settings icon"></i>
+              <div class="description">
+                <h3 class="ui aligned header">
+                  Extend
+                </h3>
+                <p>
+                  A Websocket-based scripting API that can be used to automate various tasks, such as searches and downloads.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="content ui secondary">
-          <p>Web functionality is included in the regular AirDC++ desktop application from version 3.10 onwards (currently in beta).</p>
-          <p>
-            <a class="ui blue button" href="http://www.airdcpp.net/download" target="_blank">
-              <i class="external icon"></i>
-              Download page
-            </a>
-          </p>
-        </div>
-        <div class="title">
-          <i class="dropdown icon"></i>
-          <i class="apple icon"></i>OS X
-        </div>
-        <div class="content ui secondary">
-          <p>There is no version available for OS X yet.</p>
-          <p>
-            If you are a developer and want to help with making one available, please see
-            <a class="" href="https://github.com/airdcpp-web/airdcpp-webclient/issues/37" target="_blank">
-              this tracker item
-            </a>
-            on Github.
-          </p>
+      </div>
+
+      <div class="ui center aligned basic segment">
+        <a class="ui button" href="/docs/general/features.html">
+          <i class="file text outline icon"></i>
+          Read more about the features
+        </a>
+      </div>
+    </div>
+
+    <div class="ui center aligned text container">
+      <div class="ui basic segment">
+        <h1>
+          Install
+        </h1>
+        <p>
+          Select your operating system from below for installation instructions.
+        </p>
+        <div class="ui styled fluid accordion">
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <i class="black linux icon"></i>
+            Linux/other
+          </div>
+          <div class="content ui secondary">
+            <p>
+              <a class="ui blue button" href="/docs/installation/installation.html">
+                <i class="file text outline icon"></i>
+                Installation instructions
+              </a>
+            </p>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <i class="blue windows icon"></i>
+            Windows
+          </div>
+          <div class="content ui secondary">
+            <p>Web functionality is included in the regular AirDC++ desktop application from version 3.10 onwards (currently in beta).</p>
+            <p>
+              <a class="ui blue button" href="https://github.com/airdcpp/airgit/releases/download/3.10b2/AirDC_Installer_3.10b2.exe">
+                <i class="download icon"></i>
+                Download installer
+              </a>
+            </p>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <i class="apple icon"></i>OS X
+          </div>
+          <div class="content ui secondary">
+            <p>There is no version available for OS X yet.</p>
+            <p>
+              If you are a developer and want to help with making one available, please see
+              <a class="" href="https://github.com/airdcpp-web/airdcpp-webclient/issues/37" target="_blank">
+                this tracker item
+              </a>
+              on Github.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
- </div>
+</div>

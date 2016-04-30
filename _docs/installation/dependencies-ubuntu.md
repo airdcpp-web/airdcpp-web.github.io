@@ -23,7 +23,7 @@ Note that `libtbb-dev` is an optional dependency as it's not available for all p
 `$ sudo apt-get install libbz2-dev zlib1g-dev libssl-dev libstdc++6 libminiupnpc-dev libnatpmp-dev libtbb-dev libgeoip-dev libboost1.55-dev libboost-regex1.55 libboost-thread1.55 libboost-system1.55 libleveldb-dev`
 
 
-##### Websocket++
+##### Websocket++ (Ubuntu 14.04)
 
 Older versions of Ubuntu don't provide a package for Websocket++, which is required for compiling.
 

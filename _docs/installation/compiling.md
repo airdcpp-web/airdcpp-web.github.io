@@ -10,6 +10,7 @@ order: 2.5
 
  * [Installation](#installation)
  * [Updating](#updating)
+ * [Installing a development version](#installing-a-development-version)
  * [Uninstalling](#uninstalling)
 
 ## Installation
@@ -85,10 +86,28 @@ Follow the instructions in the [Compile and install](#compile-and-install) secti
 
 Note that if you check the version numbers from the About page (Settings -> About), the last numbers in UI and client versions may differ because minor updates can be released separately for both projects. However, the major version numbers (0.**xx**.x) should always match. The latest available Web UI version can be checked from [the NPM package page](https://www.npmjs.com/package/airdcpp-webui).
 
+
+## Installing a development version
+
+Development versions can be unstable. Usually you want to run a stable version unless you want to help with finding bugs from upcoming versions or testing recently made bug fixes for your issues.
+
+```
+$ git checkout develop
+```
+
+Follow the instructions in the [Compile and install](#compile-and-install) section to compile and install the new version.
+
+
+If you want to switch back to a stable release, run
+
+```
+$ git checkout master
+```
+
 ## Uninstalling
 
 ```
-$ make uninstall
+$ sudo make uninstall
 ```
 
 You may also remove the source and settings directories as well if you are not going to need them later.

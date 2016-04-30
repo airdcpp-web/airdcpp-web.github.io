@@ -1,76 +1,72 @@
 ---
 layout: documentation
 title: Features
-description: Information about client features
+description: Summary of file sharing features supported by the client
 category: General
 order: 1.1
 ---
 
-# Getting started
-
-
-There must be a common hub server for the people to connect to. A single hub server may handle thousands of users.
-
-If you are joining an existing server, you'll simply just enter ther address of the server you've been given to.
-
-If you are going to set up a new server, it's going to require some effort as there is no inbuilt hub server in the client at the moment. Please see the page [Setting up an own hub](/docs/general/running-a-hub.html) for information.
-
-
 # Features
 
-
-## Communication
-
-### Protocol support
-
-The application is built to work on [Advanced Direct Connect](https://en.wikipedia.org/wiki/Advanced_Direct_Connect) network. Legacy [Direct Connect](https://en.wikipedia.org/wiki/Direct_Connect_(protocol)) protocol is supported as well, but the functionality is much more limited in such hubs.
-
-### Encryption
-
-File transfers between clients are encrypted by default. Hubs may also support encrypting data transfers between its users. In addition to that, the client also supports direct encrypted private messaging channels that also prevent hubs from spying on your private conversations.
+Summary of file sharing features supported by the client.
 
 
-## Downloads
+## Transfers
 
-### Chunked downloads from multiple simultaneous users
 
-Files are downloaded in segments and multiple segments running simultaneously, possibly from different users.
+### Chunked downloads
 
-### Support for establishing multiple transfer connections with a single user
+Files are downloaded in segments and a single file can be downloaded simultaneously from multiple users.
 
-This will provide better speeds for users with fast connections or when the per-connection speed between the users is slow (possibly because of long distance).
+
+### Multiple per-user connections
+
+Support for establishing multiple transfer connections with a single user will provide better speeds for users with fast connections or when the per-connection speed between the users is slow (possibly because of long distance).
+
 
 ### Sharing of partially downloaded content.
 
-Clients are able to exchange information about downloaded file chuncks and directory (bundle) content. This will speed up spreading of recent content that are being downloaded by many users simultaneously. Partially downloaded content won't show up in search or filelists to ensure that people won't accidentally end up queueing them.
+Clients are able to exchange information about downloaded file chunks and directory (bundle) content. This will speed up spreading of recent content that are being downloaded by many users simultaneously. Partially downloaded content won't show up in search or filelists to ensure that people won't accidentally end up queuing them.
+
+
+### Encryption
+
+File transfers between clients are encrypted by default. Hubs may also use encryption when communicating with the clients. Additionally, you may establish direct encrypted private messaging channels with other clients to prevent hubs from spying on private conversations.
 
 
 ## Sharing
 
+
 ### Share profiles
 
-You may share different content in different hubs
+You may share different content in different hubs.
 
-### Per-directory refreshes
+
+### Share refresh on per-directory basis
+
+You may refresh the content of individual roots or subdirectories to speed up refreshes with large shares.
+
 
 ### Instant sharing
 
-Content that is downloaded to a shared folder is shown in share instantly when the file/directory finishes downloading
+Content being downloaded in to a shared folder will appear in share instantly when the file/directory finishes downloading.
+
 
 ## Searching
 
-The client sorts the most relevant matches for you search first by default, which makes it possible to use very short/common search terms.
+AirDC++ Web Client sorts the most relevant matches for you search first by default, which makes it possible to use very short/common search terms. It will also choose the fastest sources automatically when queuing new content from search or when searching for alternates for queued content.
 
-## Partial filelists
 
-Use of partial filelists will greatly speed up opening of new filelists compared to traditional approach of downloading the full filelists, which can be hundreds of megabytes. Partial filelists contain the same information as full filelists and you can continue to browse them even when there are file downloads running from the same user.
+## Filelists
+
+AirDC++ Web Client uses exclusively partial filelists for browsing users' shares, meaning that content of each directory will be downloaded on demand. This will greatly speed up opening of new filelists and reduce resource usage compared to traditional approach of downloading full filelists (which can be hundreds of megabytes in size). Partial filelists contain the same information as full filelists and you can continue to browse them even when there are file downloads running from the same user.
 
 
 ## Performance
 
-The client has been tested to work also in extreme real-life use: 
+The client has been tested to handle heavy real-life workloads, such as in the following scenarios: 
 
-* Thousands of queued files/directories
 * Hundreds of terabytes of shared content or more than 10 million share files
+* Thousands of queued files/directories
 
 The resource usage mainly depends on your transfer speeds (especially when encrypted transfers are enabled) and the number of files shared.

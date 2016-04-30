@@ -3,7 +3,7 @@ layout: documentation
 title: Reporting bugs
 description: Bug reporting instructions
 category: General
-order: 1.3
+order: 1.5
 ---
 
 # Reporting issues
@@ -32,7 +32,7 @@ Include all text from the generated crash log to your bug report. The log is loc
 
 ### Client freeze/deadlock
 
-Note that you should first confirm whether the client has freezed and the issue isn't in the UI (try opening the UI in a new tab).
+Note that you should first confirm whether the client has frozen and the issue isn't in the UI (try opening the UI in a new tab).
 
 Install the ``gdb`` package before running the following commands.
 
