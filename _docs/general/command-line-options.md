@@ -2,8 +2,8 @@
 layout: documentation
 title: Command line options
 description: Listing of command line options
-category: General
-order: 1.5
+category: Usage
+order: 3.1
 ---
 
 # Command line options

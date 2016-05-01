@@ -8,6 +8,6 @@ order: 7.2
 
 # Scripting API
 
-Scripting can be done via a [Websocket-based scripting API](https://github.com/airdcpp/airdcpp-webapi). Alternatively you may use regular HTTP calls if you don't need event push notifications from the client.
+AirDC++ Web Client includes a [JSON-based scripting API](https://github.com/airdcpp/airdcpp-webapi) that can be accessed via a Websocket or by using HTTP requests. 
 
 The API hasn't been documented yet but you can check out the [Javascript API connector project](https://github.com/airdcpp-web/airdcpp-apisocket-js) for basic example scripts.

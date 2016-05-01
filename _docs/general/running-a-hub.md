@@ -10,7 +10,7 @@ order: 1.6
 
 ## Recommended hub software
 
-### Linux: [uhub](https://www.uhub.org)
+### Linux/UNIX: [uhub](https://www.uhub.org)
 
 A high-performance hubsoft for Unix-like operating systems with basic functionality.
 

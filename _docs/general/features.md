@@ -3,7 +3,7 @@ layout: documentation
 title: Features
 description: Summary of file sharing features supported by the client
 category: General
-order: 1.1
+order: 1.2
 ---
 
 # Features

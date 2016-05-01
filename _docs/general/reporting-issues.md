@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Reporting bugs
+title: Reporting issues
 description: Bug reporting instructions
 category: General
 order: 1.5
@@ -34,7 +34,7 @@ Include all text from the generated crash log to your bug report. The log is loc
 
 Note that you should first confirm whether the client has frozen and the issue isn't in the UI (try opening the UI in a new tab).
 
-Install the ``gdb`` package before running the following commands.
+You must have the ``gdb`` package installed before running the following commands.
 
 ```
 $ cat ~/.airdc++/airdcppd.pid
