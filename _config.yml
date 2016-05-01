@@ -8,9 +8,9 @@
 # Site settings
 title: AirDC++ Web Client
 description: > # this means to ignore newlines until "baseurl:"
-  A peer-to-peer file sharing client with responsive web user interface for frequent sharing of files and directories with a group of people.
+  A peer-to-peer file sharing client with a responsive web user interface for frequent sharing of files and directories within groups of people.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://airdcpp-web.github.io" # the base hostname & protocol for your site
+url: "https://airdcpp-web.github.io" # the base hostname & protocol for your site
 github_username: airdcpp-webclient
 
 # Build settings
