@@ -13,7 +13,16 @@ order: 2.5
  * [Installing a development version](#installing-a-development-version)
  * [Uninstalling](#uninstalling)
 
-## Installation
+## Compiling from source
+
+### System requirements
+
+Each compiler thread requires about 1 GB of free RAM. If the system you are compiling on has 1 GB of RAM or less, the compiler will most likely crash. 
+
+You can try the following to solutions to avoid compile-time RAM requirements:
+
+* Add [swap space](https://www.linux.com/news/all-about-linux-swap-space)
+* Use [Docker](https://www.docker.com)
 
 ### Installing dependencies
 
@@ -31,17 +40,23 @@ $ git clone https://github.com/airdcpp-web/airdcpp-webclient.git
 $ cd airdcpp-webclient
 ```
 
-### Compile and install
+### Compile
 
 ```
 $ cmake .
 $ make -j2
-$ sudo make install
 ```
 `-j2` after the `make` command means that the client is compiled by using 2 threads. It's a good idea to replace the value with the number of available CPU cores. 
 
-Note that each compiler thread requires about 1 GB of free RAM. If the compiler crashes with "internal compiler error", you have run out of memory.
+** "Internal compiler error" during compilation **
 
+The compiler ran out of memory. Try freeing up some memory or use a smaller number of threads for compiling.
+
+### Install
+
+```
+$ sudo make install
+```
 
 ### Configure and run
 
