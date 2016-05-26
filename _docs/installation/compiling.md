@@ -48,7 +48,7 @@ $ make -j2
 ```
 `-j2` after the `make` command means that the client is compiled by using 2 threads. It's a good idea to replace the value with the number of available CPU cores. 
 
-** "Internal compiler error" during compilation **
+**"Internal compiler error" during compilation**
 
 The compiler ran out of memory. Try freeing up some memory or use a smaller number of threads for compiling.
 
