@@ -106,13 +106,11 @@ Note that if you check the version numbers from the About page (Settings -> Abou
 
 Development versions can be unstable. Usually you want to run a stable version unless you want to help with finding bugs from upcoming versions or testing recently made bug fixes for your issues.
 
-You should first ensure that you have the latest changes by following the instructions in the [updating section](#updating).
-
 ```
 $ git checkout develop
 ```
 
-Follow the instructions in the [Compile and install](#compile-and-install) section to compile and install the new version.
+Follow the instructions in the [Updating](#updating) section to get the latest changes and to compile and install the new version.
 
 
 If you want to switch back to a stable release, run
