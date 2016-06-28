@@ -106,6 +106,8 @@ Note that if you check the version numbers from the About page (Settings -> Abou
 
 Development versions can be unstable. Usually you want to run a stable version unless you want to help with finding bugs from upcoming versions or testing recently made bug fixes for your issues.
 
+You should first ensure that you have the latest changes by following the instructions in the [updating section](#updating).
+
 ```
 $ git checkout develop
 ```
