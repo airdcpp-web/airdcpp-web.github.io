@@ -12,7 +12,7 @@ order: 2.6
 
 **clang** (tested with recent versions)
 
-**gcc** (version 4.7 or newer is required)
+**gcc** (version 4.8 or newer is required)
 
 ## Required tools
 
@@ -44,6 +44,8 @@ Version 1.54 or newer is required
 #### leveldb
 
 #### miniupnpc
+
+Version 1.8 or newer is required
 
 #### openssl
 
