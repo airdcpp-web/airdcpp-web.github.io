@@ -30,6 +30,10 @@ Older versions of Ubuntu don't provide a package for Websocket++, which is requi
 Please follow [manual installation instructions](/docs/installation/websocketpp.html) for installing the package.
 
 
-#### Ubuntu 15.10 or newer
+#### Ubuntu 16.04 LTS
 
 `$ sudo apt-get install pkg-config libbz2-dev zlib1g-dev libssl-dev libstdc++6 libminiupnpc-dev libnatpmp-dev libtbb-dev libgeoip-dev libboost1.5*-dev libboost-regex1.5* libboost-thread1.5* libboost-system1.5* libleveldb-dev libwebsocketpp-dev`
+
+#### Ubuntu 16.10 or newer
+
+`$ sudo apt-get install pkg-config libbz2-dev zlib1g-dev libssl-dev libstdc++6 libminiupnpc-dev libnatpmp-dev libtbb-dev libgeoip-dev libboost1.61-dev libboost-regex1.61 libboost-thread1.61 libboost-system1.61 libleveldb-dev libwebsocketpp-dev`
