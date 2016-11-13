@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div id="docs">
-	<div class="ui container">
+	<div class="ui container wrapper">
 		<div class="ui stackable grid">
 			<div class="row">
 				<div id="sidebar" class="four wide column">
 					{% include docs-menu.html %}
 				</div>
-				<div class="twelve wide column">
+				<div id="content" class="twelve wide column">
 					{{ content }}
 				</div>
 			</div>

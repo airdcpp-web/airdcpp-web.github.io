@@ -5,12 +5,8 @@
 
 
 #home {
-	margin-bottom: 50px !important;
-}
-
-#home .main.container {
-  margin-top: 5px;
-  margin-bottom: 120px;
+	/* Leave some room for the accordion to expand */
+	padding-bottom: 120px !important;
 }
 
 #home .masthead::before {
@@ -35,13 +31,6 @@ _::-webkit-:not(:root:root), .masthead::before {
   margin: 0px 0px;
 }
 
-@media only screen and (max-width: 767px) {
-  .ui.container {
-    margin-left: inherit !important;
-    margin-right: inherit !important;
-  }
-}
-
 #home .masthead {
   overflow: hidden;
   padding-bottom: 20px;
@@ -50,7 +39,7 @@ _::-webkit-:not(:root:root), .masthead::before {
 #home .masthead .text {
   position: absolute;
   top: 325px;
-  left: 50%;
+  left: calc(50% - 15px);
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
@@ -85,11 +74,8 @@ _::-webkit-:not(:root:root), .masthead::before {
 }
 
 #docs {
-  margin: 0px 15px 30px 15px;
-}
-
-#docs > .ui.container {
   margin-top: 100px;
+	padding-bottom: 50px;
 }
 
 #docs #sidebar .vertical.menu {
