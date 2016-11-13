@@ -22,11 +22,19 @@ There is no installation package available at the moment but developers are able
 
 ## Linux/UNIX
 
+#### Platform-specific packages
+
+- [Gentoo](https://packages.gentoo.org/packages/net-p2p/airdcpp-webclient)
+
 More installation packages are wanted for different operating systems. If you want to help with making an installation package available for your favorite operating system, please see this [this Github issue](https://github.com/airdcpp-web/airdcpp-webclient/issues/38).
 
-[Compiling the client on other platforms](/docs/installation/compiling.html)
 
-### Notes for FreeBSD users
+#### Other platforms
 
-AirDC++ Web Client uses IPv6 natively by default. Since FreeBSD has [IPv4-mapped IPv6 addresses](https://en.wikipedia.org/wiki/IPv6#IPv4-mapped_IPv6_addresses) disabled by default, you can access the client only via an IPv6 address. If you need IPv4 connectivity, you may enable support IPv4-mapped IPv6 addresses (future client versions will also add a configurable bind address).
+[Compiling instructions](/docs/installation/compiling.html)
 
+#### Docker images
+
+The following third-party [Docker](https://www.docker.com) images are available:
+
+- [airdcpp-webclient (gangefors)](https://hub.docker.com/r/gangefors/airdcpp-webclient/)

@@ -39,11 +39,17 @@ _::-webkit-:not(:root:root), .masthead::before {
 #home .masthead .text {
   position: absolute;
   top: 325px;
-  left: calc(50% - 15px);
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
   z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  #home .masthead .text {
+    left: calc(50% - 15px);
+  }
 }
 
 #home .masthead .text span {
