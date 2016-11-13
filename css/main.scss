@@ -53,12 +53,12 @@ _::-webkit-:not(:root:root), .masthead::before {
 }
 
 .ui.main.container {
-	margin-top: 5px;
+  margin-top: 5px;
   margin-bottom: 120px;
 }
 
 #main-content {
-	margin-bottom: 50px !important;
+  margin: 0px 15px 30px 15px !important;
 }
 
 #main {
@@ -84,8 +84,8 @@ _::-webkit-:not(:root:root), .masthead::before {
 }
 
 .features .grid .column > .segment {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-height: 600px) {
