@@ -4,7 +4,16 @@
 @charset "utf-8";
 
 
-.masthead::before {
+#home {
+	margin-bottom: 50px !important;
+}
+
+#home .main.container {
+  margin-top: 5px;
+  margin-bottom: 120px;
+}
+
+#home .masthead::before {
   content: "";
 	background-image: url("/img/main_bg.jpg") !important;
 	background-size: cover;
@@ -33,12 +42,12 @@ _::-webkit-:not(:root:root), .masthead::before {
   }
 }
 
-.masthead {
+#home .masthead {
   overflow: hidden;
   padding-bottom: 20px;
 }
 
-.masthead .text {
+#home .masthead .text {
   position: absolute;
   top: 325px;
   left: 50%;
@@ -48,44 +57,39 @@ _::-webkit-:not(:root:root), .masthead::before {
   z-index: 1;
 }
 
-.masthead .text span {
+#home .masthead .text span {
   white-space: nowrap;
 }
 
-.ui.main.container {
-  margin-top: 5px;
-  margin-bottom: 120px;
-}
-
-#main-content {
-  margin: 0px 15px 30px 15px !important;
-}
-
-#main {
-  margin-top: 100px;
-}
-
-.ui.demo.segment {
+#home .ui.demo.segment {
   margin-bottom: 50px !important;
 }
 
-.features .grid i {
+#home .features .grid i {
   flex-shrink: 0;
 	float: left;
 	margin-right: 20px;
 }
 
-.features .grid .column {
+#home .features .grid .column {
 	display: flex !important;
 }
 
-.features .grid {
+#home .features .grid {
   margin-top: 0px !important;
 }
 
-.features .grid .column > .segment {
+#home .features .grid .column > .segment {
   display: flex;
   align-items: center;
+}
+
+#docs {
+  margin: 0px 15px 30px 15px;
+}
+
+#docs > .ui.container {
+  margin-top: 100px;
 }
 
 @media (max-height: 600px) {
