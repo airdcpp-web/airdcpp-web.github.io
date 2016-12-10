@@ -25,6 +25,7 @@ There is no installation package available at the moment but developers are able
 #### Platform-specific packages
 
 - [Gentoo](https://packages.gentoo.org/packages/net-p2p/airdcpp-webclient)
+- [QNAP](https://www.airdcpp.net/forum/viewtopic.php?t=4563)
 
 More installation packages are wanted for different operating systems. If you want to help with making an installation package available for your favorite operating system, please see this [this Github issue](https://github.com/airdcpp-web/airdcpp-webclient/issues/38).
 
