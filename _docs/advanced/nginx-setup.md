@@ -3,7 +3,7 @@ layout: documentation
 title: Proxying with nginx
 description: Example configuration for proxying with nginx
 category: Advanced
-order: 7.1
+order: 7.3
 ---
 
 # Proxying with nginx

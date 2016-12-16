@@ -3,7 +3,7 @@ layout: documentation
 title: Scripting API
 description: Using AirDC++ Web API
 category: Advanced
-order: 7.2
+order: 7.4
 ---
 
 # Scripting API
