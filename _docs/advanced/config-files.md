@@ -16,6 +16,8 @@ Default configuration path:
 
 ## Using custom location
 
+**Version 1.4.1 or newer is required for customizing the configuration file location**
+
 Put the file *dcppboot.xml* inside the directory *CMAKE_INSTALL_FULL_SYSCONFDIR/airdcpp/* (*/usr/local/etc/airdcpp/* by default).
 
 Example content of *dcppboot.xml*:
