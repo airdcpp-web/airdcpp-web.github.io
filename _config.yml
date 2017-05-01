@@ -13,6 +13,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://airdcpp-web.github.io" # the base hostname & protocol for your site
 github_username: airdcpp-webclient
 excerpt_separator: <!--more-->
+timezone: Europe/Helsinki
+
 
 # Build settings
 markdown: kramdown
