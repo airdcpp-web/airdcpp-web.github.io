@@ -3,19 +3,33 @@
 ---
 @charset "utf-8";
 
+#docs, #post {
+  margin-top: 100px;
+	padding-bottom: 50px;
+}
+
+#blog {
+	padding-bottom: 50px;
+}
 
 #home {
 	/* Leave some room for the accordion to expand */
 	padding-bottom: 120px !important;
+	margin-top: 0px !important;
 }
 
-#home .masthead::before {
+/* Masthead */
+.masthead {
+  overflow: hidden;
+}
+
+.masthead::before {
   content: "";
-	background-image: url("/img/main_bg.jpg") !important;
+	background-image: url("/assets/main_bg.jpg") !important;
 	background-size: cover;
 	background-position: 75% 50%;
   display: block;
-  height: 600px;
+  height: 180px;
 
   -webkit-filter: blur(10px) brightness(90%);
   -moz-filter: blur(5px);
@@ -25,25 +39,36 @@
   margin: 0px -20px;
 }
 
+.masthead.large::before {
+	height: 600px;
+}
+
 _::-webkit-:not(:root:root), .masthead::before {
   // Hiding of left and right blur gradient causes strange artifacts on Safari 
   // (but it works on Chrome and Firefox while Edge will happily ignore the margins)
   margin: 0px 0px;
 }
 
-#home .masthead {
-  overflow: hidden;
-  padding-bottom: 20px;
-}
-
-#home .masthead .text {
+.masthead .content {
   position: absolute;
-  top: 325px;
   left: 50%;
+	top: 125px;
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
   z-index: 1;
+}
+
+.masthead.large .content {
+  top: 325px;
+}
+
+#blog .masthead {
+  padding-bottom: 40px;
+}
+
+#home .masthead {
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -56,6 +81,8 @@ _::-webkit-:not(:root:root), .masthead::before {
   white-space: nowrap;
 }
 
+
+/* Home content */
 #home .ui.demo.segment {
   margin-bottom: 50px !important;
 }
@@ -79,15 +106,23 @@ _::-webkit-:not(:root:root), .masthead::before {
   align-items: center;
 }
 
-#docs {
-  margin-top: 100px;
-	padding-bottom: 50px;
+/* Blog content */
+
+.meta.date {
+	font-size: 0.90em !important;
 }
 
+/* Docs content */
 #docs #sidebar .vertical.menu {
   max-width: 100%;
 }
 
+#docs .ui.grid {
+	margin: 0px !important;
+}
+
+
+/* Generic */
 @media (max-height: 600px) {
   .main.menu .item.right {
     padding: 0px 10px !important;
@@ -95,7 +130,7 @@ _::-webkit-:not(:root:root), .masthead::before {
 }
 
 body {
-  height: calc(100% - 87px) !important;
+  height: calc(100% - 100px) !important;
 }
 
 // Our variables
