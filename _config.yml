@@ -19,3 +19,6 @@ markdown: kramdown
 collections:
   docs:
     output: true
+
+gems:
+  - jekyll-feed
