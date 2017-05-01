@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+<div id="post" class="ui text container">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2 class="ui header">
+			{{ page.title }}
+			<div class="sub header"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</div>
+		</h2>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+		<div class="content" itemprop="articleBody">
+			{{ content }}
+		</div>
+	</article>
 
-</article>
+	<div class="ui divider"></div>
+	{% include share-page.html %}
+</div>
