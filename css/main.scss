@@ -5,17 +5,17 @@
 
 #docs, #post {
   margin-top: 100px;
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 #blog {
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 #home {
-	/* Leave some room for the accordion to expand */
-	padding-bottom: 120px !important;
-	margin-top: 0px !important;
+  /* Leave some room for the accordion to expand */
+  padding-bottom: 120px !important;
+  margin-top: 0px !important;
 }
 
 /* Masthead */
@@ -25,11 +25,11 @@
 
 .masthead::before {
   content: "";
-	background-image: url("/assets/main_bg.jpg") !important;
-	background-size: cover;
-	background-position: 75% 50%;
+  background-image: url("/assets/main_bg.jpg") !important;
+  background-size: cover;
+  background-position: 75% 50%;
   display: block;
-  height: 180px;
+  height: 165px;
 
   -webkit-filter: blur(10px) brightness(90%);
   -moz-filter: blur(5px);
@@ -40,7 +40,7 @@
 }
 
 .masthead.large::before {
-	height: 600px;
+  height: 600px;
 }
 
 _::-webkit-:not(:root:root), .masthead::before {
@@ -89,12 +89,12 @@ _::-webkit-:not(:root:root), .masthead::before {
 
 #home .features .grid i {
   flex-shrink: 0;
-	float: left;
-	margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
 
 #home .features .grid .column {
-	display: flex !important;
+  display: flex !important;
 }
 
 #home .features .grid {
@@ -112,13 +112,17 @@ _::-webkit-:not(:root:root), .masthead::before {
 	font-size: 0.90em !important;
 }
 
+#post img {
+  max-width: 100%;
+}
+
 /* Docs content */
 #docs #sidebar .vertical.menu {
   max-width: 100%;
 }
 
 #docs .ui.grid {
-	margin: 0px !important;
+  margin: 0px !important;
 }
 
 
@@ -162,25 +166,25 @@ $on-laptop:        800px;
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+  font-size: 15px;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: #eef;
 }
 
 code {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: auto;
+  padding: 8px 12px;
+  overflow-x: auto;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 
