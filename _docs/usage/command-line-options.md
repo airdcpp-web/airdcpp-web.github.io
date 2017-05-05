@@ -14,49 +14,53 @@ order: 3.1
 
 ## Client options
 
-##### -h
+##### `-h`
 
 Print help
 
-##### -v
+##### `-v`
 
 Print version
 
-##### -d
+##### `-d`
 
 Run as daemon
 
-##### -c=PATH
+##### `-p=PATH`
+
+Custom pid file path (default: <CFG_DIR>/.airdcppd.pid)
+
+##### `-c=PATH`
 
 Use the specified config directory for client settings
 
-##### --no-auto-connect
+##### `--no-auto-connect`
 
 Don't connect to any favorite hub on startup
 
-##### --cdm-hub
+##### `--cdm-hub`
 
 Print all protocol communication with hubs in the console (debug)
 
-##### --cdm-client
+##### `--cdm-client`
 
 Print all protocol communication with other clients in the console (debug)
 
 
 ## Web server
 
-##### --configure
+##### `--configure`
 
 Run initial config wizard or change server ports
 
-##### --add-user
+##### `--add-user`
 
 Add a new web user with administrative permissions (or change password for existing users)
 
-##### --remove-user
+##### `--remove-user`
 
 Remove web user
 
-##### --web-resources=PATH
+##### `--web-resources=PATH`
 
 Use the specified resource directory for web server files
