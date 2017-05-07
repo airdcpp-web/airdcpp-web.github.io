@@ -10,9 +10,9 @@ order: 2.2
 
 ## Download
 
-- **[64-bit](http://web-builds.airdcpp.net/stable/airdcpp-2.0.0-64-bit-portable.tar.gz)**
-- **[32-bit](http://web-builds.airdcpp.net/stable/airdcpp-2.0.0-32-bit-portable.tar.gz)**
-- **[ARM](http://web-builds.airdcpp.net/stable/airdcpp-2.0.0-armhf-portable.tar.gz)**
+- **[64-bit](http://web-builds.airdcpp.net/stable/airdcpp-2.0.1-64-bit-portable.tar.gz)**
+- **[32-bit](http://web-builds.airdcpp.net/stable/airdcpp-2.0.1-32-bit-portable.tar.gz)**
+- **[ARM](http://web-builds.airdcpp.net/stable/airdcpp-2.0.1-armhf-portable.tar.gz)**
 
 Note: the ARM binary is compatible with ARMv7 and newer architectures only.
 
@@ -32,7 +32,7 @@ Launch normally
 
 ## Nightly builds
 
-Nightly builds can be downloaded from http://web-builds.airdcpp.net/develop/
+[Nightly build archive](http://web-builds.airdcpp.net/develop/)
 
 
 ## Migration from non-portable builds
