@@ -35,5 +35,12 @@ See [the nginx documentation](http://nginx.org/en/docs/beginners_guide.html#prox
 	        proxy_http_version 1.1;
 	        proxy_set_header Upgrade $http_upgrade;
 	        proxy_set_header Connection "upgrade";
+
+            # Uncomment the line below if you are using nginx's basic auth module
+            # Otherwise the nginx authentication header would be forwarded to the app, 
+            # which would cause all HTTP requests to fail. Uncommenting the line also means 
+            # that you can't access the API via nginx with basic authentication
+            #
+            # proxy_set_header Authorization "";
 	}
 ```
