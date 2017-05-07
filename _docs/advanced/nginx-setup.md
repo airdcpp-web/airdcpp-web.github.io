@@ -16,25 +16,25 @@ See [the nginx documentation](http://nginx.org/en/docs/beginners_guide.html#prox
 ## Example configuration
 
 ```
-	#	
-	# AirDC++ Web Client
-	#
-	# You may change the location path but it must always start with "airdcpp".
-	# This is because the UI uses URLs for routing so it must be able to determine
-	# the base directory from the URL.
-	#
-	location /airdcpp/ {
-	        # Client URL (no need for HTTPS when using localhost)
-	        proxy_pass  http://localhost:5600/;
+  #	
+  # AirDC++ Web Client
+  #
+  # You may change the location path but it must always start with "airdcpp".
+  # This is because the UI uses URLs for routing so it must be able to determine
+  # the base directory from the URL.
+  #
+  location /airdcpp/ {
+          # Client URL (no need for HTTPS when using localhost)
+          proxy_pass  http://localhost:5600/;
 
-	        # Gzipping javascript will reduce the transferred data significantly
-	        # This has no effect if gzip compression is disabled from nginx
-	        gzip_types      text/plain application/javascript;
+          # Gzipping javascript will reduce the transferred data significantly
+          # This has no effect if gzip compression is disabled from nginx
+          gzip_types      text/plain application/javascript;
 
-	        # Proxy websockets
-	        proxy_http_version 1.1;
-	        proxy_set_header Upgrade $http_upgrade;
-	        proxy_set_header Connection "upgrade";
+          # Proxy websockets
+          proxy_http_version 1.1;
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_set_header Connection "upgrade";
 
             # Uncomment the line below if you are using nginx's basic auth module
             # Otherwise the nginx authentication header would be forwarded to the app, 
@@ -42,5 +42,5 @@ See [the nginx documentation](http://nginx.org/en/docs/beginners_guide.html#prox
             # that you can't access the API via nginx with basic authentication
             #
             # proxy_set_header Authorization "";
-	}
+  }
 ```
