@@ -26,7 +26,7 @@ Support for establishing multiple transfer connections with a single user will p
 
 ### Sharing of partially downloaded content.
 
-Clients are able to exchange information about downloaded file chunks and directory (bundle) content. This will speed up spreading of recent content that are being downloaded by many users simultaneously. Partially downloaded content won't show up in search or filelists to ensure that people won't accidentally end up queuing them.
+Clients are able to exchange information about downloaded file chunks and directory (bundle) content. This will speed up spreading of recent content that is being downloaded simultaneously by multiple users. Partially downloaded content won't show up in search or filelists to ensure that people won't accidentally end up queuing them.
 
 
 ### Encryption
@@ -54,19 +54,14 @@ Content being downloaded in to a shared folder will appear in share instantly wh
 
 ## Searching
 
-AirDC++ Web Client sorts the most relevant matches for you search first by default, which makes it possible to use very short/common search terms. It will also choose the fastest sources automatically when queuing new content from search or when searching for alternates for queued content.
+By default, AirDC++ Web Client sorts search results by match relevancy, which makes it possible to use very short/common search terms. It will also pick the fastest sources automatically when queuing new content from search or when searching for alternates for queued content.
 
 
 ## Filelists
 
-AirDC++ Web Client uses exclusively partial filelists for browsing users' shares, meaning that content of each directory will be downloaded on demand. This will greatly speed up opening of new filelists and reduce resource usage compared to traditional approach of downloading full filelists (which can be hundreds of megabytes in size). Partial filelists contain the same information as full filelists and you can continue to browse them even when there are file downloads running from the same user.
+The application exclusively uses partial filelists for browsing users' shares, which means that the content of each directory will be downloaded on demand. This will greatly speed up opening of new filelists and reduce resource usage compared to traditional approach of downloading full filelists (which can be hundreds of megabytes in size). Partial filelists contain the same information as full filelists and you can continue to browse them even when there are file downloads running from the same user.
 
 
 ## Performance
 
-The client has been tested to handle heavy real-life workloads, such as in the following scenarios: 
-
-* Hundreds of terabytes of shared content or more than 10 million share files
-* Thousands of queued files/directories
-
-The resource usage mainly depends on your transfer speeds (especially when encrypted transfers are enabled) and the number of files shared.
+The client has been tested to handle heavy real-life workloads,, such as with hundreds of terabytes of shared content or more than 10 million shared files.
