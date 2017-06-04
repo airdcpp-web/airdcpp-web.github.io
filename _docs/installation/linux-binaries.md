@@ -10,11 +10,11 @@ order: 2.2
 
 ## Download
 
-**Current application version**: 2.0.1 (Web UI 2.0.4)
+**Current application version**: 2.1.0 (Web UI 2.1.0)
 
-- **[64-bit](http://web-builds.airdcpp.net/stable/airdcpp_2.0.1_webui-2.0.4_64-bit_portable.tar.gz)**
-- **[32-bit](http://web-builds.airdcpp.net/stable/airdcpp_2.0.1_webui-2.0.4_32-bit_portable.tar.gz)**
-- **[ARM](http://web-builds.airdcpp.net/stable/airdcpp_2.0.1_webui-2.0.4_armhf_portable.tar.gz)**
+- **[64-bit](http://web-builds.airdcpp.net/stable/airdcpp_2.1.0_webui-2.1.0_64-bit_portable.tar.gz)**
+- **[32-bit](http://web-builds.airdcpp.net/stable/airdcpp_2.1.0_webui-2.1.0_32-bit_portable.tar.gz)**
+- **[ARM](http://web-builds.airdcpp.net/stable/airdcpp_2.1.0_webui-2.1.0_armhf_portable.tar.gz)**
 
 Note: the ARM binary is compatible with ARMv7 and newer architectures only.
 
