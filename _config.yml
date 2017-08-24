@@ -22,5 +22,5 @@ collections:
   docs:
     output: true
 
-gems:
+plugins:
   - jekyll-feed
