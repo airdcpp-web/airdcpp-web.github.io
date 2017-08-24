@@ -22,6 +22,8 @@ order: 2.6
 
 **npm** (required for UI installation)
 
+The npm app (Node package manager) is often shipped as part of the `node`/`nodejs` package. If that's not the case on your platform, you may visit their [home page](https://nodejs.org) for installation instructions.
+
 **python** (for additional installation scripts)
 
 
