@@ -8,6 +8,8 @@ order: 0
 
 ## Installing packages on Ubuntu
 
+**IMPORTANT: unless you are going to edit the source code, the recommended way to install the application on Ubuntu is to use the provided [portable binaries](/docs/installation/linux-binaries.html)**
+
 Ubuntu 16.04 or newer is required for compiling the client.
 
 ### Install tools
@@ -23,4 +25,4 @@ The installation command is targeted for Ubuntu 16.04 LTS. For installation on n
 #### Notes
 
 * `libtbb-dev` is an optional dependency as it's not available for all processor architectures (such as armv6).
-* Version of `libboost-*` packages usually differs in each Ubuntu releases. If you get installation errors with libboost packages, use the command `apt-cache search libboost` to check the latest version available for your system and replace all versions numbers in the installation command accordingly. 
+* The version number of `libboost-*` packages generally differs in each Ubuntu release. If you get installation errors related to libboost packages, use the command `apt-cache search libboost` to check the latest version available for your system and replace all versions numbers in the installation command accordingly. 
