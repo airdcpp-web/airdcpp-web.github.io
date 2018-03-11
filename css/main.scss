@@ -125,6 +125,10 @@ _::-webkit-:not(:root:root), .masthead::before {
   margin: 0px !important;
 }
 
+#docs img {
+  max-width: 100%;
+}
+
 
 /* Generic */
 @media (max-height: 600px) {
