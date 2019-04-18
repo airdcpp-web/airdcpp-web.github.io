@@ -37,4 +37,4 @@ There is no installation package available at the moment but developers are able
 
 ## Other platforms
 
-You may either [compiling the application by yourself](/docs/installation/compiling.html) or use one of the [third-party docker images](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=airdcpp&starCount=0).
+You may either [compile the application by yourself](/docs/installation/compiling.html) or use one of the [third-party docker images](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=airdcpp&starCount=0).
