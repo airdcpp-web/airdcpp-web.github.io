@@ -46,6 +46,9 @@ Print all protocol communication with hubs in the console (debug)
 
 Print all protocol communication with other clients in the console (debug)
 
+##### `--cdm-web`
+
+Print web API commands and file requests in the console (debug)
 
 ## Web server
 
