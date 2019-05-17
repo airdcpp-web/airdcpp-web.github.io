@@ -10,11 +10,11 @@ order: 2.2
 
 ## Download
 
-**Current application version**: 2.6.0 (Web UI 2.6.0)
+**Current application version**: 2.6.1 (Web UI 2.6.1)
 
-- **[64-bit](http://web-builds.airdcpp.net/stable/airdcpp_2.6.0_webui-2.6.0_64-bit_portable.tar.gz)**
-- **[32-bit](http://web-builds.airdcpp.net/stable/airdcpp_2.6.0_webui-2.6.0_32-bit_portable.tar.gz)**
-- **[ARM](http://web-builds.airdcpp.net/stable/airdcpp_2.6.0_webui-2.6.0_armhf_portable.tar.gz)**
+- **[64-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.6.1_webui-2.6.1_64-bit_portable.tar.gz)**
+- **[32-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.6.1_webui-2.6.1_32-bit_portable.tar.gz)**
+- **[ARM](https://web-builds.airdcpp.net/stable/airdcpp_2.6.1_webui-2.6.1_armhf_portable.tar.gz)**
 
 Note: the ARM binary is compatible with ARMv7 and newer architectures only.
 
@@ -34,7 +34,7 @@ Launch normally
 
 ## Nightly builds
 
-[Nightly build archive](http://web-builds.airdcpp.net/develop/)
+[Nightly build archive](https://web-builds.airdcpp.net/develop/)
 
 
 ## Migration from non-portable builds
