@@ -18,7 +18,7 @@ This page lists various options that can be used with CMake. Customizing the opt
 **External guides**
 
 * [Cross compiling](http://www.vtk.org/Wiki/CMake_Cross_Compiling)
-* [Useful generic variables](https://cmake.org/Wiki/CMake_Useful_Variables)
+* [Useful generic variables](https://gitlab.kitware.com/cmake/community/wikis/doc/cmake/Useful-Variables)
 
 
 ## Option help
