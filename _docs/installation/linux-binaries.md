@@ -10,7 +10,7 @@ order: 2.2
 
 ## Download
 
-**Current application version**: 2.9.0 (Web UI 2.9.0)
+**Current application version**: 2.10.0 (Web UI 2.10.0)
 
 - **[64-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.10.0_webui-2.10.0_64-bit_portable.tar.gz)**
 - **[32-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.10.0_webui-2.10.0_32-bit_portable.tar.gz)**
