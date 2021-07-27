@@ -41,9 +41,9 @@ Launch normally
 
 ## Migration from non-portable builds
 
-Portable builds will save all settings under the application directory by default, while non-portable versions generally save settings in user's home directory.
+Portable builds will save all settings under the application directory by default, while non-portable versions generally save settings in the user's home directory.
 
-Making the application to use your existing settings directory:
+To make the application use your existing settings directory:
 
 1. Rename `dcppboot.xml` to `dcppboot.xml.user`
 2. Open the file and change the `ConfigPath` tag to `<ConfigPath>%[HOME]/.airdc++/</ConfigPath>`
