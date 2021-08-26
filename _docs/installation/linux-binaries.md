@@ -18,6 +18,10 @@ order: 2.2
 
 Note: the ARM binary is compatible with ARMv7 and newer architectures only.
 
+Older versions can be downloaded from the [build archive](http://web-builds.airdcpp.net/stable/).
+
+## Cross-compiling for other architectures
+
 If you want to cross-compile your own portable binaries for a custom architecture, see the [compiling instructions for Buildroot](https://github.com/airdcpp-web/airdcpp-webclient/tree/master/buildroot).
 
 
