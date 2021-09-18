@@ -12,15 +12,15 @@ order: 2.6
 
 **clang** (tested with recent versions)
 
-**gcc** (version 4.9 or newer is required)
+**gcc** (version 7 or newer is required)
 
 ## Required tools
 
-**cmake**
+**cmake** (version 3.0.2 or newer is required)
 
 **pkg-config**
 
-**npm** (required for UI installation)
+**npm** (required for installing the Web UI)
 
 The npm app (Node package manager) is often shipped as part of the `node`/`nodejs` package. If that's not the case on your platform, you may visit their [home page](https://nodejs.org) for installation instructions.
 
@@ -31,13 +31,11 @@ The npm app (Node package manager) is often shipped as part of the `node`/`nodej
 
 #### boost
 
-Version 1.54 or newer is required
+Version 1.54 or newer is required with the following libraries:
 
-#### boost-regex
-
-#### boost-thread
-
-#### boost-system
+- boost-regex
+- boost-thread
+- boost-system
 
 #### bzip2
 

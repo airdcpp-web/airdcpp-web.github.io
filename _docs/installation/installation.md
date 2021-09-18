@@ -16,7 +16,7 @@ Web functionality is included in the regular [AirDC++ desktop application](http:
 
 After you have downloaded the client, you may enable web functionality from `File` -> `Settings` -> `Web server`.
 
-## Linux/UNIX
+## Linux
 
 ### Portable binaries for Linux
 
@@ -30,11 +30,20 @@ Note that the binaries are not compatible with FreeBSD or other non-Linux platfo
 ### Platform-specific packages
 
 - [Gentoo](https://packages.gentoo.org/packages/net-p2p/airdcpp-webclient)
+- [Arch](https://aur.archlinux.org/packages/airdcpp-webclient/)
 
-## OS X
+## macOS
 
-There is no installation package available at the moment but developers are able to compile the client from source. See [this issue](https://github.com/airdcpp-web/airdcpp-webclient/issues/37) for more information about the OS X package status.
+There is no installation package available at the moment but developers may compile the client from source (or use [Docker](#docker)). See [this issue](https://github.com/airdcpp-web/airdcpp-webclient/issues/37) for more information about the macOS package status.
+
+## Docker
+
+No official Docker image is provided but there are several [third-party docker images](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=airdcpp&starCount=0) available.
 
 ## Other platforms
 
-You may either [compile the application by yourself](/docs/installation/compiling.html) or use one of the [third-party docker images](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=airdcpp&starCount=0).
+There are various options for running the application on other platforms:
+
+- Community-maintained installation instructions can be found from [the wiki](https://github.com/airdcpp-web/airdcpp-webclient/wiki)
+- Use [Docker](#docker)
+- [Compile the application by yourself](/docs/installation/compiling.html)

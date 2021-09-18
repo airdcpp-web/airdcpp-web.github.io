@@ -28,9 +28,9 @@ You can try the following to solutions to avoid compile-time RAM requirements:
 
 You must first install the required tools and packages that are required for compiling.
 
-* [Installing dependencies for Ubuntu](/docs/installation/dependencies-ubuntu.html)
+* [List of required dependencies](/docs/installation/dependencies.html)
 
-* [Installing dependencies for other distributions](/docs/installation/dependencies.html)
+Operating system specific dependency installation guides can be found from [the wiki](https://github.com/airdcpp-web/airdcpp-webclient/wiki).
 
 
 ### Download the client
