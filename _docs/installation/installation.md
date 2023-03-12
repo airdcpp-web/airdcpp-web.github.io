@@ -10,9 +10,9 @@ order: 2.1
 
 ## Windows
 
-Web functionality is included in the regular [AirDC++ desktop application](http://www.airdcpp.net/).
+Web functionality is included in the regular AirDC++ desktop application.
 
-**[Download AirDC++ for Windows](http://www.airdcpp.net/download)**
+**[Download AirDC++ for Windows](https://github.com/airdcpp/airdcpp-windows/releases)**
 
 After you have downloaded the client, you may enable web functionality from `File` -> `Settings` -> `Web server`.
 
