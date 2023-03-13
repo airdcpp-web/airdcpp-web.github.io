@@ -10,10 +10,10 @@ order: 2.3
 
 ## Download
 
-**Current application version**: 4.11 (released on 20.9.2021)
+**Current application version**: 4.20 (released on 13.3.2023)
 
-- **[Installer (32-bit & 64-bit)](https://github.com/airdcpp/airdcpp-windows/releases/download/4.11/AirDC_Installer_4.11.exe)**
-- **[Other downloads](https://github.com/airdcpp/airdcpp-windows/releases/tag/4.11)**
+- **[Installer (32-bit & 64-bit)](https://github.com/airdcpp/airdcpp-windows/releases/download/4.20/AirDC_Installer_4.20.exe)**
+- **[Other downloads](https://github.com/airdcpp/airdcpp-windows/releases/tag/4.20)**
 
 Older versions can be downloaded from the [release archive](https://github.com/airdcpp/airdcpp-windows/releases).
 
