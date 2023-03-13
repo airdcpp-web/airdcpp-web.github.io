@@ -2,8 +2,8 @@
 layout: documentation
 title: Dependencies for compiling
 description: Common information about required dependencies
-category: Installation
-order: 2.6
+category: Compiling daemon
+order: 6.2
 ---
 
 # Dependencies for compiling
@@ -49,7 +49,7 @@ Version 1.8 or newer is required
 
 #### openssl
 
-Version 1.0.0 or newer is required
+Version 1.1.0 or newer is required
 
 #### stdc++
 

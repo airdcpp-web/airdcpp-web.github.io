@@ -1,9 +1,9 @@
 ---
 layout: documentation
 title: Build options
-description: Advanced options for CMake 
-category: Advanced
-order: 7.1
+description: Advanced options for CMake
+category: Compiling daemon
+order: 6.3
 ---
 
 # Compiling options

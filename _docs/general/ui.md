@@ -1,14 +1,14 @@
 ---
 layout: documentation
-title: User interface
-description: User interface
+title: Web user interface
+description: Web user interface
 category: General
 order: 1.3
 ---
 
-# User interface
+# Web user interface
 
-![Home-page](../../assets/ui.jpg "User interface")
+![Home-page](../../assets/ui.jpg "Web user interface")
 
 ## Main navigation
 

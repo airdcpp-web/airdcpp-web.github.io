@@ -18,7 +18,7 @@ Anyone who has created an account on the site is able to submit new translations
 
 You may download your newly made translations from [Transifex](https://www.transifex.com/airdcpp/airdcpp/) for testing them in the application before they made available to all users.
 
-### Testing UI translations
+### Testing Web UI translations
 
 **Translation resource**: webui.main.json
 

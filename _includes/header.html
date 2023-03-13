@@ -4,13 +4,25 @@
 			<img class="logo" src="/assets/AirDCPlusPlus.png">
 		</a>
 
-		<div class="item right">
+		<div class="menu right">
 			{% for my_page in site.pages %}
 				{% if my_page.title %}
 				<a class="page-link item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
 				{% endif %}
 			{% endfor %}
-			<a class="page-link item" href="https://github.com/airdcpp-web/airdcpp-webclient">Github</a>
+			<div class="ui dropdown item">
+				Github <i class="dropdown icon"></i>
+				<div class="menu">
+					<a class="page-link item" href="https://github.com/airdcpp-web/airdcpp-webclient">
+						<i class="linux icon"></i>
+						AirDC++ Web Client
+					</a>
+					<a class="page-link item" href="https://github.com/airdcpp/airdcpp-windows">
+						<i class="windows icon"></i>
+						AirDC++ for Windows
+					</a>
+				</div>
+			</div>
 		</div>
 	</nav>
 </div>

@@ -2,8 +2,8 @@
 layout: documentation
 title: Compiling from source
 description: Common installation instructions for all platforms
-category: Installation
-order: 2.5
+category: Compiling daemon
+order: 6.1
 ---
 
 ## Table of contents
