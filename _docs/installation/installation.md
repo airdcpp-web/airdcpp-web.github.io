@@ -46,4 +46,4 @@ There are various options for running the application on other platforms:
 
 - Community-maintained installation instructions can be found from [the wiki](https://github.com/airdcpp-web/airdcpp-webclient/wiki)
 - Use [Docker](#docker)
-- [Compile the application by yourself](/docs/installation/compiling.html)
+- [Compile the application by yourself](/docs/compiling/compiling.html)
