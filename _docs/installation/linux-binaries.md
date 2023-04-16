@@ -34,9 +34,9 @@ Launch normally
 `./airdcppd`
 
 
-## Nightly builds
+## Beta builds
 
-[Nightly build archive](https://web-builds.airdcpp.net/develop/)
+[Beta build archive](https://web-builds.airdcpp.net/develop/)
 
 
 ## Cross-compiling for other architectures
