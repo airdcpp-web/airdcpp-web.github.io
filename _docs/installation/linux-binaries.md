@@ -23,13 +23,15 @@ Older versions can be downloaded from the [build archive](http://web-builds.aird
 
 ## Usage
 
-Unpack the downloaded archive and run the following terminal commands inside the extracted directory:
+1. Unpack the downloaded archive and run the following terminal commands inside the extracted directory:
 
-Initial configuration wizard
+2. A) Initial configuration wizard
 
 `./airdcppd --configure`
 
-Launch normally
+2. B) Update from older version: copy old version "airdcpp-webclient-old/config/" directory into new version "airdcpp-webclient/" directory.
+
+3. Launch normally
 
 `./airdcppd`
 
