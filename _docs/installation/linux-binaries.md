@@ -34,6 +34,12 @@ Launch normally
 `./airdcppd`
 
 
+## Updating to a new version
+
+The application can be updated in the same way as it was originally installed, just by replacing the old files with the latest ones from the archive. Your existing configuration files will remain intact.
+
+If you still want to back up your existing configuration before the update, please read the [configuration directory docs](/docs/advanced/config-files.html).
+
 ## Beta builds
 
 [Beta build archive](https://web-builds.airdcpp.net/develop/)
