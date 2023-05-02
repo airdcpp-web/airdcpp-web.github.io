@@ -1,22 +1,33 @@
 ---
 layout: documentation
-title: Configuration file location
-description: Configuration file location 
+title: Configuration directory location (Web Client)
+description: Configuration directory location 
 category: Advanced
 order: 7.2
 ---
 
-# Configuration file location
+# Configuration directory location
 
-The application uses user-specific configuration files by default.
+The configuration directory location is customizable.
 
-Default configuration path:
+## Default configuration location
+### Portable builds
+
+As the installation is meant to be portable, also the config files are stored inside the application directory by default. The name of the configuration directory is `config`.
+
+### Standard installation
 
 `/home/<username>/.airdc++/`
 
 ## Using custom location
 
-Put the file *dcppboot.xml* inside the directory *CMAKE_INSTALL_FULL_SYSCONFDIR/airdcpp/* (*/usr/local/etc/airdcpp/* by default).
+### Portable builds
+
+Rename the file *dcppboot.xml* that is located next to the application binary to *dcppboot.xml.user* so that it won't be overwritten with the defaults when the application is being updated. You can then edit the file as needed.
+
+### Standard installation
+
+Put the file *dcppboot.xml* inside the directory *CMAKE_INSTALL_FULL_SYSCONFDIR/airdcpp/* (*/usr/local/etc/airdcpp/* by default for self-compiled builds).
 
 Example content of *dcppboot.xml*:
 
