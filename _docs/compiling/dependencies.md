@@ -12,11 +12,11 @@ order: 6.2
 
 **clang** (tested with recent versions)
 
-**gcc** (version 7 or newer is required)
+**gcc** (version 8 or newer is required)
 
 ## Required tools
 
-**cmake** (version 3.0.2 or newer is required)
+**cmake** (version 3.16 or newer is required)
 
 **pkg-config**
 
@@ -39,13 +39,17 @@ Version 1.54 or newer is required with the following libraries:
 
 #### bzip2
 
-#### maxminddb
-
 #### leveldb
+
+#### maxminddb
 
 #### miniupnpc
 
 Version 1.8 or newer is required
+
+#### nlohmann-json
+
+Version 3 or newer
 
 #### openssl
 
@@ -55,7 +59,7 @@ Version 1.1.0 or newer is required
 
 #### websocketpp
 
-Version 0.7.0 or newer is heavily recommended due to stability issues in older versions. If your package manager doesn't provide the library, see [manual installation instructions](/docs/installation/websocketpp.html).
+Version 0.8.2 with the c++20 fixes from the develop branch is required (or newer version, if available). If your package manager doesn't provide the library, see [manual installation instructions](/docs/installation/websocketpp.html).
 
 #### zlib
 

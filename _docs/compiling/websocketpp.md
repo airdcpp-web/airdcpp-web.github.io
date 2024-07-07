@@ -10,7 +10,7 @@ order: 0
 
 
 ```
-$ git clone git://github.com/zaphoyd/websocketpp.git
+$ git clone -b develop git://github.com/zaphoyd/websocketpp.git
 $ cd websocketpp
 $ cmake .
 $ sudo make install
