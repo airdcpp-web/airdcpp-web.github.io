@@ -59,7 +59,7 @@ Version 1.1.0 or newer is required
 
 #### websocketpp
 
-Version 0.8.2 with the c++20 fixes from the develop branch is required (or newer version, if available). If your package manager doesn't provide the library, see [manual installation instructions](/docs/installation/websocketpp.html).
+Version 0.8.2 with the c++20 fixes from the develop branch is required (or newer version, if available). If your package manager doesn't provide the library, see [manual installation instructions](/docs/compiling/websocketpp.html).
 
 #### zlib
 
