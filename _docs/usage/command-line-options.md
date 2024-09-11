@@ -8,11 +8,20 @@ order: 3.1
 
 # Command line options
 
-## Usage 
+## Windows
+
+##### `/noautoconnect`
+
+Don't connect to any favorite hub on startup
+
+
+## Web client
+
+### Usage 
 
 ```$ airdcppd [options]```
 
-## Client options
+### Client options
 
 ##### `-h`
 

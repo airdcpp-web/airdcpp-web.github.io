@@ -2,7 +2,7 @@
 layout: documentation
 title: Installing Websocket++
 description: Install Websocket++
-category: Compiling daemon
+category: Compiling (Web Client)
 order: 0
 ---
 

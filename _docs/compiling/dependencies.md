@@ -2,7 +2,7 @@
 layout: documentation
 title: Dependencies for compiling
 description: Common information about required dependencies
-category: Compiling daemon
+category: Compiling (Web Client)
 order: 6.2
 ---
 

@@ -2,20 +2,23 @@
 layout: documentation
 title: Compiling from source
 description: Common installation instructions for all platforms
-category: Compiling daemon
+category: Compiling (Web Client)
 order: 6.1
 ---
 
+
+# Compiling from source
+
 ## Table of contents
 
+ * [System requirements](#system-requirements)
  * [Installation](#installation)
  * [Updating](#updating)
  * [Installing a development version](#installing-a-development-version)
  * [Uninstalling](#uninstalling)
 
-## Compiling from source
 
-### System requirements
+## System requirements
 
 Each compiler thread requires about 1 GB of free RAM. If the system you are compiling on has 1 GB of RAM or less, the compiler will most likely crash. 
 
@@ -23,6 +26,8 @@ You can try the following to solutions to avoid compile-time RAM requirements:
 
 * Add [swap space](https://www.linux.com/news/all-about-linux-swap-space)
 * Use [Docker](https://www.docker.com)
+
+## Installation
 
 ### Installing dependencies
 

@@ -2,7 +2,7 @@
 layout: documentation
 title: Build options
 description: Advanced options for CMake
-category: Compiling daemon
+category: Compiling (Web Client)
 order: 6.3
 ---
 
