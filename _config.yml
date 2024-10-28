@@ -18,6 +18,9 @@ timezone: Europe/Helsinki
 
 # Build settings
 markdown: kramdown
+kramdown:
+  parse_block_html: true
+
 collections:
   docs:
     output: true
