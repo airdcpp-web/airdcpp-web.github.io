@@ -53,7 +53,7 @@ $ make -j2
 ```
 `-j2` after the `make` command means that the client is compiled by using 2 threads. It's a good idea to replace the value with the number of available CPU cores.
 
-With more advanced build scenarios, you might find the [Compiling options](/docs/advanced/compiling-options.html) page useful.
+With more advanced build scenarios, you might find the [Compiling options](/docs/compiling/compiling-options.html) page useful.
 
 **"Internal compiler error" during compilation**
 
