@@ -38,7 +38,7 @@ There is no installation package available at the moment but developers may comp
 
 ## Docker
 
-No official Docker image is provided but there are several [third-party docker images](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=airdcpp&starCount=0) available.
+No official Docker image is provided but there are several [third-party docker images](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=airdcpp-webclient&starCount=0) available.
 
 ## Other platforms
 
