@@ -10,11 +10,11 @@ order: 2.2
 
 ## Download
 
-**Current application version**: 2.13.3 (Web UI 2.13.1)
+**Current application version**: 2.14.0 (Web UI 2.14.0)
 
-- **[64-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.13.3_webui-2.13.1_64-bit_portable.tar.gz)**
-- **[32-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.13.3_webui-2.13.1_32-bit_portable.tar.gz)**
-- **[ARM](https://web-builds.airdcpp.net/stable/airdcpp_2.13.3_webui-2.13.1_armhf_portable.tar.gz)**
+- **[64-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.14.0_webui-2.14.0_64-bit_portable.tar.gz)**
+- **[32-bit](https://web-builds.airdcpp.net/stable/airdcpp_2.14.0_webui-2.14.0_32-bit_portable.tar.gz)**
+- **[ARM](https://web-builds.airdcpp.net/stable/airdcpp_2.14.0_webui-2.14.0_armhf_portable.tar.gz)**
 
 Supported CPUs: 
 
